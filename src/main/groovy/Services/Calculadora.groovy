@@ -27,7 +27,12 @@ class Calculadora implements CalculadoraI{
 
     @Override
     double div(double x, double y) {
-        return 0
+        try {
+            return x / y
+        } catch (Exception error) {
+            println("Erro!")
+        }
+
     }
 
     @Override
@@ -41,5 +46,9 @@ class Calculadora implements CalculadoraI{
 
     double potencia(double base, double potencia){
         return Math.pow(base, potencia)
+    }
+
+    double media(List listaNumeros){
+        return listaNumeros.sum() / listaNumeros.size()
     }
 }
