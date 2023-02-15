@@ -37,7 +37,7 @@ class Calculadora implements CalculadoraI{
 
     @Override
     double mult(double x, double y) {
-        return 0
+        return x * y
     }
 
     double raizQuadrada(int i) {
@@ -50,5 +50,10 @@ class Calculadora implements CalculadoraI{
 
     double media(List listaNumeros){
         return listaNumeros.sum() / listaNumeros.size()
+    }
+
+    double porcentagem(double value, double percent) {
+        percent /= 100; // percent = percent / 100
+        return value * percent
     }
 }

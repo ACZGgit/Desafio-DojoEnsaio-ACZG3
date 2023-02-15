@@ -72,4 +72,10 @@ class CalculadoraTest {
         double result = calculadora.media(listaNumeros);
         assertEquals(5, result);
     }
+
+    @Test
+    void porcentagem() {
+        double result = calculadora.porcentagem(10, 25);
+        assertEquals(2.5, result);
+    }
 }
