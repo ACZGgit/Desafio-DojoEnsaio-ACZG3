@@ -56,4 +56,12 @@ class Calculadora implements CalculadoraI{
         percent /= 100; // percent = percent / 100
         return value * percent
     }
+
+    int fatorial(int n) {
+        if (n == 1) {
+            return 1
+        }
+
+        return  fatorial(n - 1) * n
+    }
 }

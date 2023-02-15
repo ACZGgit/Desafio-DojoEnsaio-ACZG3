@@ -78,4 +78,10 @@ class CalculadoraTest {
         double result = calculadora.porcentagem(10, 25);
         assertEquals(2.5, result);
     }
+
+    @Test
+    void fatoreial() {
+        double result = calculadora.fatorial(5);
+        assertEquals(120, result);
+    }
 }
