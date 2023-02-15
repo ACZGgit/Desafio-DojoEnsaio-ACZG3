@@ -17,7 +17,7 @@ class Calculadora implements CalculadoraI{
 
     @Override
     public double sum(double x, double y){
-        return 0
+        return x + y
     }
 
     @Override
@@ -33,5 +33,9 @@ class Calculadora implements CalculadoraI{
     @Override
     double mult(double x, double y) {
         return 0
+    }
+
+    def double raizQuadrada(int i) {
+        return Math.sqrt(i)
     }
 }

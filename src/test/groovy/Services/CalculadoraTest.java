@@ -30,6 +30,12 @@ class CalculadoraTest {
     }
 
     @Test
+    void raizQuadrada() {
+        double result = calculadora.raizQuadrada(4);
+        assertEquals(2, result);
+    }
+
+    @Test
     void sub() {
         double result = calculadora.sub(2,3);
         assertEquals(-1, result);
