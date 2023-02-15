@@ -4,5 +4,5 @@ Instrução, adicione seu nome com um "OK" na frente e faça um push: (ex. Eduar
 3: Tharik Honda
 4: Higor Azevedo
 5: Alexandre Soares
-6:
+6: Igor Moreira
 7:
