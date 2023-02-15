@@ -22,7 +22,7 @@ class Calculadora implements CalculadoraI{
 
     @Override
     double sub(double x, double y) {
-        return 0
+        return x - y
     }
 
     @Override
@@ -35,7 +35,11 @@ class Calculadora implements CalculadoraI{
         return 0
     }
 
-    def double raizQuadrada(int i) {
+    double raizQuadrada(int i) {
         return Math.sqrt(i)
+    }
+
+    double potencia(double base, double potencia){
+        return Math.pow(base, potencia)
     }
 }

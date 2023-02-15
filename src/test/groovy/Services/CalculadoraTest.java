@@ -52,4 +52,10 @@ class CalculadoraTest {
         double result = calculadora.mult(5,5);
         assertEquals(25, result);
     }
+
+    @Test
+    void potencia(){
+        double result = calculadora.potencia(2,2);
+        assertEquals(4, result);
+    }
 }
