@@ -19,6 +19,7 @@ class CalculadoraTest {
 
     @Test
     void getLastResult() {
+
     }
 
     @Test
