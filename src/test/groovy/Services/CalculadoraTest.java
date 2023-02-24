@@ -18,6 +18,7 @@ class CalculadoraTest {
     void getLastResult() {
     }
 
+
     @Test
     void setLastResult() {
 
@@ -45,5 +46,10 @@ class CalculadoraTest {
     void mult() {
         double result = calculadora.mult(5,5);
         assertEquals(25, result);
+    }
+
+    @Test void sqrt() {
+        double result = calculadora.sqrt(4.0);
+        assertEquals(2, result);
     }
 }
